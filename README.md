@@ -44,20 +44,28 @@ Main Features:
    All inputs are stored as integers.
    
 3. Calculation of Percentage:
+   
    avg = (m1 + m2 + m3 + m4 + m5) / 5.0;
+   
    The average (percentage) is calculated using float division by 5.0 to ensure decimal precision.
 
 3. Grade Assignment: Based on the value of avg, grades are assigned using a series of if-else if conditions:
 
    avg >= 90 → Grade O
+   
    85–89 → Grade A+
+   
    75–84 → Grade A
+   
    65–74 → Grade B+
+   
    55–64 → Grade B
+   
    40–54 → Grade C
+   
    < 40 → FAIL
 
-4. Output: Displays the calculated percentage and corresponding grade.
+5. Output: Displays the calculated percentage and corresponding grade.
 
 Conclusion: This program is a good example of:
 
