@@ -22,13 +22,16 @@ int main() {
             cout << "THE NUMBER IS ZERO." << endl; }
                 return 0; }
 
-// OUTPUT:
+// OUTPUTS:
 
+// (i):
 // ENTER A NUMBER:5
 // THE NUMBER IS POSITIVE.
 
+// (ii):
 // ENTER A NUMBER:-3
 // THE NUMBER IS NEGATIVE.
 
+// (iii):
 // ENTER A NUMBER:0
 // THE NUMBER IS ZERO.
