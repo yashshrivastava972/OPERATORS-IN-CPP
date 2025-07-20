@@ -70,6 +70,42 @@ It’s useful for building student grading systems, report cards, and academic e
 
                                                                   PROGRAM 3C:
 
+Aim: To find coordinates are from which quadrant.
+
+Tool: VS CODE.
+
+Theory: This program determines the location of a point (x, y) in the Cartesian coordinate system and identifies whether the point lies in a quadrant, on an axis, or at the origin.
+
+Key Concepts Used:
+
+1. User Input:
+The program asks the user to enter the values of x and y (float values).
+These represent the coordinates of a point.
+
+2. Conditional Checking:
+The program uses if-else statements to check the signs of x and y and determine the position.
+
+| Condition          | Output                     |
+| ------------------ | -------------------------- |
+| `x > 0 && y > 0`   | Quadrant 1                 |
+| `x < 0 && y > 0`   | Quadrant 2                 |
+| `x < 0 && y < 0`   | Quadrant 3                 |
+| `x > 0 && y < 0`   | Quadrant 4                 |
+| `x == 0 && y != 0` | Lies on **Y-axis**         |
+| `x != 0 && y == 0` | Lies on **X-axis**         |
+| `x == 0 && y == 0` | Point is at the **origin** |
+
+3. Output: Based on the above checks, the program prints the correct location of the point.
+
+Conclusion: This program is helpful to:
+
+1. Understand the Cartesian plane.
+2. Use logical and relational operators.
+3. Implement multiple condition checks using if-else.
+
+It is commonly used in geometry-related applications, graph plotting, and robotics pathfinding based on location coordinates.
+
+
 
 
 
